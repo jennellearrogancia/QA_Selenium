@@ -9,7 +9,7 @@ def perform_login(driver, email, password):
     Logs in to Demo Web Shop using visible typing and clicks 'Remember Me'.
     """
     driver.find_element(By.CLASS_NAME, "ico-login").click()
-    time.sleep(2)
+    time.sleep(3)
 
     email_input = driver.find_element(By.ID, "Email")
     password_input = driver.find_element(By.ID, "Password")
