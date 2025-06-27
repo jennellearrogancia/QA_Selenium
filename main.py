@@ -74,5 +74,5 @@ driver.save_screenshot(f"screenshot_{email}.png")
 driver.find_element(By.CLASS_NAME, "ico-logout").click()
 time.sleep(2)
 
-print(f"✅ Automation complete! Registered and logged in with: {email}")
+print(f"Automation complete! Registered and logged in with: {email}")
 driver.quit()
